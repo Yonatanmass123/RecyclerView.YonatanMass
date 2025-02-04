@@ -34,6 +34,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public int getItemCount() {
         return this.mData.length;
     }
+
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView tv;
